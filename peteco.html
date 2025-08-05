@@ -5,65 +5,105 @@
   <title>フードロス×エコ｜栄養たっぷりで水耕栽培の安心安全なレタスをあなたの大切なペットに - タガヤスファーム</title>
   <meta name="description" content="フードロス×エコ　栄養たっぷりで安心安全なレタスを、あなたの大切なペットに。1日限定5名・30kgまで。10kg 1,000円（税抜）＋送料別途。">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css"> <!-- 共通CSS -->
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'メイリオ', sans-serif;
+      background-color: #fff;
+      color: #333;
+      text-align: center; /* ← 全体を中央揃えに */
+    }
+
     .content {
       max-width: 900px;
       margin: 0 auto;
       padding: 20px;
-      font-family: 'メイリオ', sans-serif;
     }
+
+    h1 {
+      font-size: 24px;
+      color: #27ae60;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #2c3e50;
+    }
+
     .highlight {
       color: #27ae60;
       font-weight: bold;
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
+
     .images {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
-      margin: 20px 0;
+      margin: 30px 0;
     }
+
     .images img {
       max-width: 300px;
       width: 100%;
       border-radius: 10px;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
-    .btn-mail {
-      display: inline-block;
-      background-color: #27ae60;
-      color: #fff;
-      padding: 12px 24px;
-      margin-top: 30px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
+
+    ul {
+      display: inline-block; /* ← リストを中央に */
+      text-align: left;
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-top: 10px;
     }
-    .btn-mail:hover {
-      background-color: #219150;
+
+    .contact-icons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .contact-icons img {
+      width: 140px;
+      transition: transform 0.3s;
+    }
+
+    .contact-icons img:hover {
+      transform: scale(1.05);
+    }
+
+    .ecopet-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
     }
   </style>
 </head>
 <body>
 
-<!-- タイトル画像（任意。なければ削除可） -->
-<img src="ecopet.jpg" alt="『フードロス×エコ』栄養たっぷりで水耕栽培の安心安全なレタスを、あなたの大切なペットに" class="ecopet-img">
+  <!-- タイトル画像 -->
+  <img src="ecopet.jpg" alt="フードロス×エコ：ペット向けレタス" class="ecopet-img">
 
-<div class="content">
+  <div class="content">
 
-   
+    <h1>栄養価が高く、無農薬。<br>水耕栽培ならではのクリーンなレタス</h1>
+
     <p>
-      <h1> <span class="highlight">栄養価が高く、栽培期間中 無農薬。水耕栽培ならではのクリーンなレタス</span></h1><br>
-      タガヤスファームでは、美味しいのに出荷タイミングのずれなどにより流通に乗せられなかった<br>
-      レタスをフードロス削減とエコの観点からペット用として特別にご提供しています。<br>
-　　　
+      タガヤスファームでは、美味しいのに出荷タイミングのずれなどにより流通に<br>
+      乗せられなかったレタスを、フードロス削減とエコの観点からペット用として特別にご提供しています。
     </p>
 
     <div class="images">
-      <img src="images/pet1.jpg" alt="レタスを食べるうさぎ">
-      <img src="images/lettuce_loss.jpg" alt="フードロスレタス">
+      <img src="images/eco1.jpg" alt="フードロス１">
+      <img src="images/eco2.jpg" alt="フードロス２">
     </div>
 
     <h2>内容・条件</h2>
@@ -75,23 +115,19 @@
       <li>ご入金確認後、順次発送します</li>
     </ul>
 
-    <p>ご希望の方は、下記のボタンよりメールでご注文ください。</p>
+    <h2>ご注文・お問い合わせ</h2>
+    <p>ご希望の方は、以下よりメールまたはInstagramのDMでご連絡ください。</p>
 
-    <section>
-    <h2>ご注文</h2>
-
-<p>ご注文は、公式Instagramまたは以下のメールアドレスからお願いいたします。</p>
-  <div class="contact-icons">
-    <a href="mailto:tagayasu@tagayasu-inc.co.jp">
-      <img src="mail.png" alt="メール" width="150">
-    </a>
-    <a href="https://www.instagram.com/tagayasu_farm" target="_blank">
-      <img src="instagram.png" alt="インスタ" width="150">
-    </a>
-  </div>
-</section>
-
+    <div class="contact-icons">
+      <a href="mailto:order@tagayasu-inc.co.jp">
+        <img src="mail.png" alt="メールで注文">
+      </a>
+      <a href="https://www.instagram.com/tagayasu_farm" target="_blank">
+        <img src="instagram.png" alt="Instagramで注文">
+      </a>
+    </div>
 
   </div>
+
 </body>
 </html>
