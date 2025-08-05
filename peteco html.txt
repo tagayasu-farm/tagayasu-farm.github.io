@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>フードロス×エコ｜栄養たっぷりで水耕栽培の安心安全なレタスをあなたの大切なペットに - タガヤスファーム</title>
+  <meta name="description" content="フードロス×エコ　栄養たっぷりで安心安全なレタスを、あなたの大切なペットに。1日限定5名・30kgまで。10kg 1,000円（税抜）＋送料別途。">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'メイリオ', sans-serif;
+      background-color: #fff;
+      color: #333;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #27ae60;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #2c3e50;
+    }
+
+    .highlight {
+      color: #27ae60;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    .images img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      text-align: left;
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .contact-icons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .contact-icons img {
+      width: 140px;
+      transition: transform 0.3s;
+    }
+
+    .contact-icons img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- タイトル画像 -->
+  <img src="ecopet.jpg" alt="フードロス×エコ：ペット向けレタス" class="ecopet-img">
+
+  <div class="content">
+
+    <h1>栄養価が高く、無農薬。水耕栽培ならではのクリーンなレタス</h1>
+
+    <p>
+      タガヤスファームでは、美味しいのに出荷タイミングのずれなどにより流通に乗せられなかった<br>
+      レタスをフードロス削減とエコの観点からペット用として特別にご提供しています。
+    </p>
+
+    <div class="images">
+      <img src="images/pet1.jpg" alt="レタスを食べるうさぎの写真">
+      <img src="images/lettuce_loss.jpg" alt="出荷できなかったレタスの写真">
+    </div>
+
+    <h2>内容・条件</h2>
+    <ul>
+      <li>10kg：<span class="highlight">1,000円（税抜）</span></li>
+      <li>送料：<span class="highlight">別途クール便にて</span></li>
+      <li>1日5名限定／最大30kgまで</li>
+      <li>お支払い：<span class="highlight">銀行振込（先払い）</span></li>
+      <li>ご入金確認後、順次発送します</li>
+    </ul>
+
+    <h2>ご注文・お問い合わせ</h2>
+    <p>ご希望の方は、以下よりメールまたはInstagramのDMでご連絡ください。</p>
+
+    <div class="contact-icons">
+      <a href="mailto:order@tagayasu-inc.co.jp">
+        <img src="mail.png" alt="メールで注文">
+      </a>
+      <a href="https://www.instagram.com/tagayasu_farm" target="_blank">
+        <img src="instagram.png" alt="Instagramで注文">
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
