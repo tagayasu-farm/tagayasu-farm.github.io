@@ -154,7 +154,27 @@ display: block; /* gapが効くようにするために追加推奨 */
 }
 
 
+.news-button {
+  position: relative;
+}
 
+.new-label {
+  position: absolute;
+  top: -8px;
+  right: -15px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 8px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
 
 
 
@@ -179,8 +199,12 @@ display: block; /* gapが効くようにするために追加推奨 */
 <a href="philosophy.html" class="nav-button">企業理念/マインドアイデンティティ</a> 
       <a href="strength.html" class="nav-button">タガヤスファームの強み</a>
       <a href="#syoukai" class="nav-button">代表商品紹介</a>
-      <a href="news.html" class="nav-button">NEWS/お知らせ</a>
+     <a href="news.html" class="nav-button news-button">
+  NEWS/お知らせ
+  <span class="new-label">NEW</span>
+</a>
       <a href="shops.html" class="nav-button">取扱店舗</a>
+     
     </div>
   </header>
 
